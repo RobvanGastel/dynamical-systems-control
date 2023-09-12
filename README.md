@@ -16,9 +16,11 @@ The notebooks contain the implementations to: LQR and handpicking poles for the 
 
 ## Linear Control
 $$
+\begin{aligned}
 \dot{x} = Ax + Bu \\
 u = -Kx \\
 x = (A-BK)x
+\end{aligned}
 $$
 
 The equations to the linear control techniques finding an appropriate Gain matrix K by handpicking the poles or using LQR on the Pendulum and Cartpole dynamical systems.
