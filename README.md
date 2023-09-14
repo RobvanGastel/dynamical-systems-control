@@ -17,9 +17,9 @@ The notebooks contain the implementations to: LQR and handpicking poles for the 
 ## Linear Control
 $$
 \begin{aligned}
-\dot{x} = Ax + Bu \\
-u = -Kx \\
-x = (A-BK)x
+\dot{x} &= Ax + Bu \\
+u &= -Kx \\
+x &= (A-BK)x
 \end{aligned}
 $$
 
